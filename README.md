@@ -1,11 +1,15 @@
 # Django 
 # Burda Django nasıl kurulur ve django ile path işlemleri nasıl yapıldığı gösterilmiştir. Aşagıda Detaylı olarak ne yapılması gerektiğini anlattım.
 ##1 - Öncelikle shell’den python versiyonunu kontrol etmek için terminale  python –version  komutunu yazırız. Bu komutla  python versiyonunu görmüş oluruz.
+
 ##2- Daha sonra terminalde çalışma ortamımızı oluşturmak üzere terminale  python –m venv env komutunu yazarız.( -m: Modül/ env ise dosyamızın ismi uygulamada hep env olarak verilmektedir.)
+
 Vs Code  yukarıdaki komutu yazınca env klasörünün oluştuğunu görürüz.
+
 ##3- Bu işlemden sonra oluşturduğumuz env klasörünün active hale getiririz. 
 Bunun için  source env/Scripts/Activate komutu ile aktif hale getiririz.(Windows için) Bunu anlamak için klasörün kenarında (env) ibaresini görürüz. 
 (.env/Scripts/Activate)
+
 4- Pasif hale getirme deactivate komutu ile olur.
 5- Django kurmak için hazırız. pip install django komutu ile kurarız. Burada bize  “python.exe -m pip install --upgrade pip” böyle bir uyarı vermektedir. 
 Bu komut satırını da çalıştırıp pip’in en son versiyonunu yükleriz.
