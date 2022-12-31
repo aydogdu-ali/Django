@@ -49,7 +49,9 @@ Bunun amacı settings deki urls.py dosyasının kalabalık ığını ve kodları
 Bunun için her bir app klasöründe urls.py dosyası oluşturulur.   
  
 Bunu yaptıktan sonra burada tanımladığımız urls.py dosyasını Main ‘de bulunan urls.py dosyasına import ederiz. Bunun için “include” keywordunu kullanırız.
+
 from django.urls import path, include
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('teacher/',include('teacher.urls')),
